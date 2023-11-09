@@ -27,15 +27,17 @@ export default WhatsCard
 
 const styles = StyleSheet.create({
   box:{
+    alignSelf:'stretch',
     height:100,
-    width:'100%',
+    // width:'100%',
     backgroundColor:'green' ,
-    flexDirection:'row'
+    flexDirection:'row',
+    margin:10,
   },
   img:{
     height: 100,
     width:100,
-    backgroundColor:''
+    // backgroundColor:''
   },
   Text:{
     fontSize: 25,
